@@ -1,5 +1,5 @@
 all:
-	$(CC) main.c -o console-c-simple
+	$(CC) main.c 
 
 clean:
-	$(RM) console-c-simple
+	$(RM) a.out
