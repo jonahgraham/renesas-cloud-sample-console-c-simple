@@ -1,5 +1,5 @@
 all:
-	$(CC) -static main.c 
+	$(CC) -static -g main.c
 
 clean:
 	$(RM) a.out
