@@ -1,0 +1,15 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "gdb",
+            "request": "attach",
+            "gdbpath": "/scratch/che/yocto16/tools/sysroots/x86_64-pokysdk-linux/usr/bin/arm-poky-linux-gnueabi/arm-poky-linux-gnueabi-gdb",
+            "name": "Attach to gdbserver",
+            "executable": "./a.out",
+            "target": "192.168.111.2:1234",
+            "remote": true,
+            "cwd": "${workspaceRoot}"
+        }
+    ]
+}
