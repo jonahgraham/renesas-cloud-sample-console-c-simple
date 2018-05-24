@@ -10,7 +10,7 @@ int x(int a, int b) {
  
 int main(int argc, char** argv) { 
      
-	printf("Hello from e2cloud\n"); 
+	printf("Hello from Renesas Cloud\n"); 
 	printf("x = %d\n", x(1, 2)); 
 	printf("x = %d\n", x(-1, 2)); 
 	return 0; 
